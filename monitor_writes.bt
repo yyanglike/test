@@ -1,0 +1,36 @@
+#!/usr/bin/env bpftrace
+
+tracepoint:syscalls:sys_enter_write
+{
+    printf("write: fd=%d, buf=%p, count=%lu\n", args->fd, args->buf, args->count);
+}
+
+tracepoint:syscalls:sys_enter_writev
+{
+    printf("writev: fd=%d, vec=%p, vlen=%lu\n", args->fd, args->vec, args->vlen);
+}
+
+tracepoint:syscalls:sys_enter_pwrite64
+{
+    printf("pwrite64: fd=%d, buf=%p, count=%lu, offset=%lu\n", args->fd, args->buf, args->count, args->pos);
+}
+
+tracepoint:syscalls:sys_enter_pwritev
+{
+    printf("pwritev: fd=%d, vec=%p, vlen=%lu, offset=%lu\n", args->fd, args->vec, args->vlen, args->pos);
+}
+
+tracepoint:syscalls:sys_enter_pwritev2
+{
+    printf("pwritev2: fd=%d, vec=%p, vlen=%lu, offset=%lu, flags=%u\n", args->fd, args->vec, args->vlen, args->pos, args->flags);
+}
+
+tracepoint:syscalls:sys_enter_splice
+{
+    printf("splice: fd_in=%d, fd_out=%d, len=%lu, flags=%u\n", args->fd_in, args->fd_out, args->len, args->flags);
+}
+
+tracepoint:syscalls:sys_enter_sendfile64
+{
+    printf("sendfile64: fd_in=%d, fd_out=%d, offset=%p, count=%lu\n", args->fd_in, args->fd_out, args->offset, args->count);
+}
