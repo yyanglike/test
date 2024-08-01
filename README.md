@@ -16,6 +16,7 @@ tracepoint:syscalls:sys_enter_write
 
 
 测试
+tracepoint:syscalls:sys_enter_writev
 
 
 

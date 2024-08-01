@@ -22,8 +22,8 @@ tracepoint:syscalls:sys_enter_write
     fi
 
     # 解析 BPFtrace 输出，获取 PID 和文件描述符
-    pid=$(echo "$line" | awk '{print $2}')
-    fd=$(echo "$line" | awk '{print $4}')
+    pid=$(echo "$line" | awk '{print $2}'| tr -d ',')
+    fd=$(echo "$line" | awk '{print $4}'| tr -d ',')
     size=$(echo "$line" | awk '{print $6}')
 
     # 检查是否成功提取到 PID 和文件描述符
@@ -32,11 +32,16 @@ tracepoint:syscalls:sys_enter_write
         continue
     fi
 
-    # 获取文件描述符对应的文件路径
-    file_path=$(sudo ls -l /proc/$pid/fd/$fd 2>/dev/null | awk '{print $NF}')
+    # 输出调试信息
+    echo "Debug: Parsing file path for PID $pid, FD $fd"
 
-    # 输出文件路径
+    # 获取文件描述符对应的文件路径
+    file_path=$(sudo ls -l /proc/$pid/fd/$fd 2>/dev/null)
+
+    # 检查文件路径是否存在
     if [[ -n "$file_path" ]]; then
+        # 从 ls 输出中提取实际路径
+        file_path=$(echo "$file_path" | awk '{print $NF}')
         echo "File path for FD $fd in process $pid: $file_path"
     else
         echo "File path for FD $fd in process $pid: Not found or inaccessible"
