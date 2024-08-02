@@ -43,5 +43,8 @@ sudo apt-get install linux-hwe-6.5-tools-common
 or 6.2
 sudo apt-get install linux-hwe-6.2-tools-common
 
+## 安装指导开发库。
+sudo apt-get update
+sudo apt-get install -y libbpfcc-dev
 
 ## 查询需要看的例子参考check.sh

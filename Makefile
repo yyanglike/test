@@ -1,7 +1,20 @@
-obj-m += write_interceptor.o
+# Makefile for compiling the trace_syscalls program
 
-all:
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+CXX = g++
+CXXFLAGS = -Wall -std=c++17
+LDFLAGS = -lbpf
+
+TARGET = trace_syscalls
+SRCS = trace_syscalls.cpp
+OBJS = $(SRCS:.cpp=.o)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $(TARGET) $(OBJS)
+
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+	rm -f $(TARGET) $(OBJS)
