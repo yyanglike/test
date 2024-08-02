@@ -1,0 +1,84 @@
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda8b8e2e00, size: 1024, offset: 1678336
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda8b8e3200, size: 8192, offset: 1679360
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 8192, offset: 1687552
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: write pid: 1250, fd: 37, size: 2997
+Debug: Parsing file path for PID 1250, FD 37
+File path for FD 37 in process 1250: /var/lib/mysql/binlog.000411
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1688576
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1688576
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 5, buf: 0x7cda9dd48000, size: 49152, offset: 65536
+Debug: Parsing file path for PID 1250, FD 5
+File path for FD 5 in process 1250: /var/lib/mysql/#ib_16384_0.dblwr
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1688576
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 34, buf: 0x7cda98ff8a00, size: 512, offset: 1536
+Debug: Parsing file path for PID 1250, FD 34
+File path for FD 34 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 5, buf: 0x7cda9dd48000, size: 16384, offset: 0
+Debug: Parsing file path for PID 1250, FD 5
+File path for FD 5 in process 1250: /var/lib/mysql/#ib_16384_0.dblwr
+Processing line: pwrite64 pid: 1250, fd: 34, buf: 0x7cda98ff8a00, size: 512, offset: 512
+Debug: Parsing file path for PID 1250, FD 34
+File path for FD 34 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda8b8e5600, size: 7168, offset: 1688576
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 8192, offset: 1695744
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: write pid: 1250, fd: 37, size: 2995
+Debug: Parsing file path for PID 1250, FD 37
+File path for FD 37 in process 1250: /var/lib/mysql/binlog.000411
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda8b8e8000, size: 1024, offset: 1699328
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1700352
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1700352
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1700352
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 5, buf: 0x7cda9dd48000, size: 65536, offset: 131072
+Debug: Parsing file path for PID 1250, FD 5
+File path for FD 5 in process 1250: /var/lib/mysql/#ib_16384_0.dblwr
+Processing line: pwrite64 pid: 1250, fd: 5, buf: 0x7cda9dd48000, size: 65536, offset: 65536
+Debug: Parsing file path for PID 1250, FD 5
+File path for FD 5 in process 1250: /var/lib/mysql/#ib_16384_0.dblwr
+Processing line: pwrite64 pid: 1250, fd: 5, buf: 0x7cda9dd48000, size: 16384, offset: 0
+Debug: Parsing file path for PID 1250, FD 5
+File path for FD 5 in process 1250: /var/lib/mysql/#ib_16384_0.dblwr
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1700352
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 34, buf: 0x7cda98ff8a00, size: 512, offset: 1536
+Debug: Parsing file path for PID 1250, FD 34
+File path for FD 34 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 5, buf: 0x7cda9dd48000, size: 16384, offset: 131072
+Debug: Parsing file path for PID 1250, FD 5
+File path for FD 5 in process 1250: /var/lib/mysql/#ib_16384_0.dblwr
+Processing line: pwrite64 pid: 1250, fd: 34, buf: 0x7cda98ff8a00, size: 512, offset: 512
+Debug: Parsing file path for PID 1250, FD 34
+File path for FD 34 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 11, buf: 0x7cda9dd74000, size: 512, offset: 1700352
+Debug: Parsing file path for PID 1250, FD 11
+File path for FD 11 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
+Processing line: pwrite64 pid: 1250, fd: 5, buf: 0x7cda9dd48000, size: 65536, offset: 65536
+Debug: Parsing file path for PID 1250, FD 5
+File path for FD 5 in process 1250: /var/lib/mysql/#ib_16384_0.dblwr
+Processing line: pwrite64 pid: 1250, fd: 34, buf: 0x7cda98ff8a00, size: 512, offset: 1536
+Debug: Parsing file path for PID 1250, FD 34
+File path for FD 34 in process 1250: /var/lib/mysql/#innodb_redo/#ib_redo46
